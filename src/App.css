@@ -1,0 +1,22 @@
+/* Styles for the div with class 'h-[600px] w-[400px]' */
+
+/* Styles for the enabled paragraph */
+.enabled-paragraph {
+  /* Add your CSS styles for the enabled paragraph here */
+  color: blue; /* Example: Change text color to blue */
+  font-size: 16px; /* Example: Set font size to 16px */
+}
+/* Styles for the button */
+button {
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Add some border radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+

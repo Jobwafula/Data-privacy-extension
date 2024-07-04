@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+</head>
+<body>
+    <h1>Classification Result</h1>
+    <p>Classification: {{ output['Classification'] }}</p>
+    <p>Total: {{ output['Total'] }}</p>
+    <h2>Breakdown</h2>
+    <ul>
+        {% for key, value in output['Breakdown'].items() %}
+            <li>{{ key }}: {{ value }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
