@@ -9,8 +9,11 @@ The dashboard shows the real time analytics for data entered in any form/site
 
 # How to use it (developer mode)
 - Go to chrome browser extensions 
+
  -Manage extensions
+
  -Enable developer mode
 
  -Run npm build in your application
+
  -Load unpacked
